@@ -1,0 +1,129 @@
+.specific-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.selected-product-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 85vw;
+}
+.product-details-container {
+  width: 20vw;
+  align-self: flex-start;
+}
+.title {
+  color: #12022f;
+  font-weight: bold;
+  font-size: 25px;
+}
+.price {
+  color: #12022f;
+  font-size: 20px;
+}
+.highlight {
+  color: #616e7c;
+  font-weight: bold;
+}
+.description {
+  color: #616e7c;
+  font-size: 20px;
+  font-weight: 600;
+}
+.brand,
+.available {
+  color: #12022f;
+  font-weight: bold;
+}
+.rating,
+.review {
+  font-size: 20px;
+}
+.review {
+  color: #1e293b;
+  font-weight: 700;
+}
+.review-container {
+  display: flex;
+  width: 15vw;
+  justify-content: space-between;
+}
+.rating-container {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: space-between;
+  width: 5vw;
+  height: 5vh;
+}
+.product-image {
+  width: 40vw;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.h-line {
+  border-top: 3px solid #cbced2;
+}
+.increment-decrement-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10vw;
+}
+.quantity {
+  font-size: 30px;
+}
+.icon {
+  height: 2vh;
+  width: 3vw;
+}
+
+.cart-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-style: none;
+  width: 10vw;
+  height: 4vh;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.unOrderList-similar-product-container {
+  padding: 0px;
+  display: flex;
+  width: 85vw;
+  justify-content: space-between;
+}
+.similar-product-container {
+  display: flex;
+  flex-direction: column;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-view {
+  width: 50vw;
+  height: 50vh;
+}
+.shopping-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  width: 10vw;
+  height: 4vh;
+  border-style: none;
+  border-radius: 10px;
+}
+.availability-container,
+.brand-container {
+  display: flex;
+}
+.quantity-controller-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.list-similar-product-container {
+  list-style: none;
+}
+.similar-product-image {
+  min-width: 15vw;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.price-rating-container {
+  display: flex;
+  align-items: center;
+  width: 12vw;
+  justify-content: space-between;
+}
